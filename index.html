@@ -13,11 +13,38 @@
 		<script src="https://unpkg.com/react@15/dist/react.js"></script>
 		<script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
 
-		<title>Diversity in Media</title>
+		<title>Diversity for Media</title>
 	</head>
 	<body>
 		<div class="container">
 			<header class="row">
+				<div class="col-md-12">
+					<nav class="navbar navbar-inverse navbar-fixed-top">
+						<div class="container-fluid">
+						    <div class="navbar-header">
+						    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+						    </button>
+						      <a class="navbar-brand" href="#">
+								<span><img class="logo" src="img/favicon-inverted.ico" alt="website logo"></span>
+								Diversity for Media
+						      </a>
+						    </div>
+						    <div class="collapse navbar-collapse" id="myNavbar">
+						      <ul class="nav navbar-nav navbar-right">
+						        <li class="active"><a href="#">Top Picks and Trending</a></li>
+						        <li><a href="#">Books</a></li>
+						        <li><a href="#">Movies</a></li>
+						        <li><a href="#">About Us</a></li>
+						      </ul>
+						    </div>
+						</div>
+					</nav>
+				</div>
+
+
 				<div class="col-md-12">
 					<img class="img-responsive" src="img/diversity.jpg">
 				</div>
@@ -135,10 +162,13 @@
 			    <div class="modal-content">
 			      <div class="modal-header">
 			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			        <h4 class="modal-title" id="myModalLabel1">Why you should read this...</h4>
+			        <h4 class="modal-title text-center" id="myModalLabel1"><a href="http://www.goodreads.com/book/show/16071764-lean-in">Click here to check out Lean In!</a> </h4>
 			      </div>
 			      <div class="modal-body">
-			        <p>Yeji's Blurb</p>
+			      	<img src="img/yeji.jpg" class="col-md-4 center-block img-responsive">
+			        <p class="col-md-8">“Lean In is a super easy-to-read, but informative book! Sheryl Sandberg does a fantastic job in encouraging both women and men to support women. Sandberg inspires women to speak louder. She brings subconscious workplace bias upfront, and voices issues of leadership and equality.
+I connected deeply while reading Lean In and became conscious of everyday actions. I would recommend this book to all of my friends and family! - YeJi An”</p>
+					<p>
 			      </div>
 			      <div class="modal-footer">
 			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -152,12 +182,11 @@
 			    <div class="modal-content">
 			      <div class="modal-header">
 			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			        <h4 class="modal-title" id="myModalLabel1">Why you should watch this...</h4>
+			        <h4 class="modal-title text-center" ><a href="http://www.metacritic.com/movie/moana">Click here to check out Moana!</a>
 			      </div>
 			      <div class="modal-body">
-			        <img src="img/profile-item1.png" alt="profile-item1-modal" class="center-block">
-			        <hr>
-			        <p>Yeji's Blurb</p>
+			        <img src="img/jeff.jpg" class="col-md-4 center-block img-responsive">
+			        <p class="col-md-8">“I watched Moana with my whole family, and we greatly enjoyed it! It is about testing boundaries, and believing in yourself. Moana is a great role model for my kids. She is an independent strong female lead who does not require a prince charming to save her. Moana is the first Disney princess that I can really stand behind. I am very grateful for empowering message Moana sends to all people - kids and adults alike! - Jeffrey Xiao”</p>
 			      </div>
 			      <div class="modal-footer">
 			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

@@ -1,4 +1,5 @@
 body {
+	padding-top: 65px;
 	font-family: 'Poiret One', cursive;
 	font-size: 18px;
 }
@@ -43,4 +44,8 @@ section div a:hover {
 .formtitle {
 	font-size: 25px;
 
+}
+
+.modal-title {
+	font-size: 40px;
 }
