@@ -1,0 +1,26 @@
+body {
+	padding-top: 65px;
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+}
+.navbar-brand {
+	font-family: 'Kaushan Script', cursive;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+footer div p {
+	font-size: 12px;
+}
+hr {
+	border: none;
+	height: 1px;
+	background-color: #333;
+}
+.logo {
+	max-height: 100%;
+}
+section div a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
