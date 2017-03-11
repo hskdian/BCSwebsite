@@ -2,6 +2,10 @@ body {
 	font-family: 'Poiret One', cursive;
 	font-size: 18px;
 }
+
+.centerstuff{
+align-content: center;
+}
 .navbar-brand {
 	font-family: 'Kaushan Script', cursive;
 }
