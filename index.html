@@ -30,12 +30,11 @@
 			<article class="row">
 				<div class="col-md-6 text-center bookofmonth">
 					<h1>Book of the Month</h1>
-					<a href="https://www.amazon.ca/Lean-Women-Work-Will-Lead/dp/0385349947/ref=sr_1_1?ie=UTF8&qid=1489265853&sr=8-1&keywords=lean+in"><img class="img-responsive" src="img/header2-alt.jpg"></a>
+					<a data-target="#myModal1" data-toggle="modal"><img class="img-responsive" src="img/header2-alt.jpg" title="This is a great book!"></a>
 				</div>
 				<div class="col-md-6 text-center center-block movieofmonth">
 					<h1>Movie of the Month</h1>
-					<a href="http://www.metacritic.com/movie/lion">
-						<img class="img-responsive" src="img/Lion.jpg"></a>
+					<a data-target="#myModal2" data-toggle="modal"><img class="img-responsive" src="img/Lion.jpg" title="This is a great book!"></a>
 				</div>
 			</article>
 			<div class="row">
@@ -92,6 +91,49 @@
 					<hr>
 				</div>
 			</div>
+
+					<!-- Modal Code-->
+			<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel1">Why you should read this...</h4>
+			      </div>
+			      <div class="modal-body">
+			        <img src="img/profile-item1.png" alt="profile-item1-modal" class="center-block">
+			        <hr>
+			        <p>Yeji's Blurb</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel1">Why you should watch this...</h4>
+			      </div>
+			      <div class="modal-body">
+			        <img src="img/profile-item1.png" alt="profile-item1-modal" class="center-block">
+			        <hr>
+			        <p>Yeji's Blurb</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+
+
+
 			<footer>
 				<div class="col-md-12 text-center">
 					<p>copyright: BCS Club Execs, 2017</p>
